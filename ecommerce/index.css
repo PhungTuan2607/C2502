@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  gap: 30px;
+  width: 60px;
+  height: 60px;
+}
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.search-bar input {
+  width: 120%;
+  height: 40px;
+  border-radius: 12px;
+}
+.search-bar button {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+.login {
+  border-radius: 12px;
+  width: 90px;
+}
+.wallet {
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  width: 120px;
+}
+
+.button1,
+.button2,
+.button3,
+.button4 {
+  display: inline-block;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.button1 {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.button1:hover {
+  background-color: #e0e0e0;
+}
+
+.button2 {
+  background-color: #f5f5f5;
+  border: 3px solid black;
+  width: 90px;
+  color: black;
+}
+
+.button3 {
+  background-color: black;
+  border: 3px solid black;
+  width: 150px;
+  color: #f5f5f5;
+}
+
+.dropdown {
+  width: 90px;
+  position: relative;
+  padding: 19px 0;
+}
+
+.dropbtn {
+  background-color: #f5f5f5;
+  color: black;
+  border: none;
+  font-size: 1.8rem;
+  display: flex;
+  gap: 10px;
+  width: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.input[type="search"] {
+  height: 60%;
+  margin: 5px auto;
+  border-radius: 12px;
+  font-size: 1.7rem;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+  width: 100%;
+}
+.screen-bar {
+  display: flex;
+  width: 30%;
+  margin-left: 200px;
+}
+.search-button {
+  height: 31px;
+  position: relative;
+  top: 7px;
+  right: 34px;
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.screen-mode {
+  position: relative;
+  top: 10px;
+  display: flex;
+  width: 60px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.screen-mode img {
+  width: 25px;
+  height: 25px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 100px;
+  height: 774px;
+  border: 1px solid #000000;
+}
+
+.description {
+  padding: 20% 4% 0% 0%;
+}
+.content {
+  width: 50%;
+}
+.button4 {
+  display: flex;
+  gap: 10px;
+}
+.GetStarted {
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+}
+.LearnMore {
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 12px;
+}
+.columnScroll {
+  width: 50%;
+  height: 5px;
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 5px;
+}
+
+.columnScrollButton {
+  background-color: rgb(212, 212, 212);
+  border: none;
+  width: 35%;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.featured-collections {
+  padding: 50px;
+}
+
+.collections-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+}
+
+.collection-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.item {
+  width: 100%;
+  border-radius: 10px;
+}
+.collection {
+  display: flex;
+}
+.View {
+  background-color: white;
+  border-radius: 12px;
+  width: 100%;
+  height: 60px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.pin {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+.info p {
+  padding-top: 10px;
+}
+.featured {
+  display: flex;
+  justify-content: space-between;
+}
+.ViewAll {
+  border-radius: 12px;
+  width: 120px;
+}
+.add {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 120px;
+}
+.add {
+  display: flex;
+  padding: 120px;
+  gap: 90px;
+}
+.A {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.footer {
+  width: 80%;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid black;
+  margin-left: 120px;
+  display: flex;
+}
+.Platform {
+  margin: 50px;
+}
+.Note {
+  width: 40%;
+  border: 1px solid black;
+  padding: 50px;
+}
+.Email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.Network {
+  display: flex;
+  gap: 10px;
+  margin-top: 120px;
+}
+.Network img {
+  width: 50px;
+  height: 50px;
+}
+.copyright {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+  color: black;
+  padding-left: 120px;
+  padding-top: 20px;
+}
